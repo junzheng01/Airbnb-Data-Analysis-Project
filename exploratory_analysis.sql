@@ -6,7 +6,7 @@ SELECT
     PERCENTILE_CONT(0.5) WITHIN GROUP (ORDER BY price) as median_price
 FROM listings;
 
--- Price distribution by room type
+-- Price distribution by room 
 SELECT 
     room_type,
     MIN(price) as min_price,

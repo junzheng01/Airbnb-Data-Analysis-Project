@@ -1,3 +1,4 @@
+--
 COPY neighborhoods(neighborhood_name, borough)
 FROM '/data/raw/neighborhoods_clean.csv' DELIMITER ',' CSV HEADER;
 

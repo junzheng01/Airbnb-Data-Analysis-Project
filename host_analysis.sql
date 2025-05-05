@@ -1,4 +1,4 @@
--- Top performing hosts (by revenue estimate)
+-- Top performing hosts
 SELECT 
     h.host_id,
     h.host_name,
@@ -11,7 +11,7 @@ GROUP BY h.host_id, h.host_name
 ORDER BY estimated_revenue DESC
 LIMIT 20;
 
--- Host growth over time
+-- Host growth 
 SELECT 
     DATE_TRUNC('year', host_since) as year,
     COUNT(host_id) as new_hosts

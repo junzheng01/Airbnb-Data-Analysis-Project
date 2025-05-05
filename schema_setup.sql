@@ -1,4 +1,4 @@
--- Create tables for normalized schema
+-- Create tables
 CREATE TABLE neighborhoods (
     neighborhood_id SERIAL PRIMARY KEY,
     neighborhood_name VARCHAR(100) UNIQUE,

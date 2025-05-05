@@ -10,7 +10,7 @@ WITH host_stats AS (
 )
 SELECT * FROM host_stats;
 
--- Neighborhood price comparison
+-- Neighborhood comparison
 SELECT 
     n.neighborhood_name,
     n.borough,
